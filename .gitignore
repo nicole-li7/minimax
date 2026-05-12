@@ -1,0 +1,11 @@
+# Build outputs
+*.exe
+*.obj
+*.pdb
+*.ilk
+x64/
+Debug/
+Release/
+
+# Claude Code
+.claude/
