@@ -6,7 +6,7 @@ A minimax engine with alpha-beta pruning in C++, with Tic-Tac-Toe, Gomoku, Othel
 
 ![Playing tic-tac-toe against minimax with alpha-beta pruning](docs/demo.gif)
 
-Recorded from the interactive demo on my portfolio, a JavaScript port of the engine playing tic-tac-toe. It also shows how many positions alpha-beta skipped. [Try it in your browser](https://nicole-li7.github.io/projects/search.html).
+Recorded from the interactive demo on my portfolio, a JavaScript port of the engine playing tic-tac-toe. It also shows how many positions alpha-beta skipped. [Try it in your browser](https://nicole-li7.github.io/projects/search.html). The app itself is a Win32 program, so it runs only on Windows.
 
 ## Features
 
