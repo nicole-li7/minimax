@@ -4,9 +4,25 @@ A minimax engine with alpha-beta pruning in C++, with Tic-Tac-Toe, Gomoku, Othel
 
 ## Demo
 
+### Tic-tac-toe
+
 ![Playing tic-tac-toe against minimax with alpha-beta pruning](docs/demo.gif)
 
-Recorded from the interactive demo on my portfolio, a JavaScript port of the engine playing tic-tac-toe. It also shows how many positions alpha-beta skipped. [Try it in your browser](https://nicole-li7.github.io/projects/search.html). The app itself is a Win32 program, so it runs only on Windows.
+Small enough to search every game to the end, so the best you can do is a draw.
+
+### Othello
+
+![Playing Othello against minimax, searching 5 moves ahead](docs/demo-othello.gif)
+
+Searches 5 moves ahead and scores the board with a positional weight table (corners are worth a lot, the squares next to them are a trap). In the middle of a game, alpha-beta skips roughly 80 to 95% of the positions a plain minimax would look at.
+
+### Chess
+
+![Playing chess against minimax, searching 4 moves ahead](docs/demo-chess.gif)
+
+Searches 4 moves ahead and scores material plus piece-square tables. Supports castling, en passant and promotion.
+
+All three are recorded from the interactive demos on my portfolio, which are JavaScript ports of this engine with the same rules, scoring and search depths. [Try them in your browser](https://nicole-li7.github.io/projects/search.html). The app itself is a Win32 program, so it runs only on Windows.
 
 ## Features
 
